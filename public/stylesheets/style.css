@@ -60,3 +60,8 @@ textarea {
   min-width: 180px;
   min-height: 100px;
 }
+
+table a {
+  cursor: pointer;
+  font-size: 14px;
+}
