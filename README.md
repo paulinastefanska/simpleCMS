@@ -7,6 +7,6 @@
 - Express.js template: Pug,
 - MongoDB, Mongoose,
 - NPM.
-Deploy: 
+#### Deploy: 
 - MongoDB Atlas,
 - Heroku
