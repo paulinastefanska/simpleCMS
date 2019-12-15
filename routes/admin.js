@@ -7,11 +7,17 @@ router.all("*", (req, res, next) => {
     res.redirect("login");
     return;
   }
+  next();
 });
 
 /* GET home page. */
-router.get("/", (req, res, next) => {
-  res.render("admin", { title: "Admin" });
+router.get("/", (req, res) => {
+  res.render("admin/index", { title: "Admin" });
+});
+
+/* GET news add page. */
+router.get("/news/add", (req, res) => {
+  res.render("admin/news-form", { title: "Add new article" });
 });
 
 module.exports = router;

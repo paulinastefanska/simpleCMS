@@ -51,3 +51,12 @@ input {
   background-color: #00b7ff;
   color: #fff;
 }
+
+.text-textarea {
+  vertical-align: top;
+}
+
+textarea {
+  min-width: 180px;
+  min-height: 100px;
+}

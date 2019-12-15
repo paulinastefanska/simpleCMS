@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1= title
+  form(method='post')
+    p
+      label Title
+      input(type='text' name='title')
+    p
+      label(class='text-textarea') Text
+      textarea(name='text')
+    p
+      input(type='submit' value='Save' class='btn-submit')
