@@ -28,3 +28,26 @@ a.active {
   color: #000;
   text-decoration: underline;
 }
+
+label {
+  margin-right: 15px;
+}
+
+input {
+  padding: 4px 6px;
+}
+
+.btn-submit {
+  background-color: inherit;
+  padding: 7px 10px;
+  font-weight: bold;
+  color: #00b7ff;
+  border: 1px solid #00b7ff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #00b7ff;
+  color: #fff;
+}
